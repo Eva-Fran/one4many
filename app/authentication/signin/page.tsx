@@ -71,7 +71,7 @@ const handleSignIn = () => {
           placeholder="Enter your username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          className="w-full rounded-2xl border border-[#e6e3dc] bg-[#f8f6f1] px-4 py-3 outline-none focus:ring-2 focus:ring-[#2d4a2d]/20"
+          className="w-full rounded-2xl border border-[#e6e3dc] bg-[#f8f6f1] text-black! px-4 py-3 outline-none focus:ring-2 focus:ring-[#2d4a2d]/20"
         />
       </div>
 
@@ -85,7 +85,7 @@ const handleSignIn = () => {
           placeholder="Enter your password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full rounded-2xl border border-[#e6e3dc] bg-[#f8f6f1] px-4 py-3 outline-none focus:ring-2 focus:ring-[#2d4a2d]/20"
+          className="w-full rounded-2xl border border-[#e6e3dc] bg-[#f8f6f1] text-black! px-4 py-3 outline-none focus:ring-2 focus:ring-[#2d4a2d]/20"
         />
       </div>
 
